@@ -1,125 +1,222 @@
+<!-- Header Banner -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a5f,100:3b82f6&height=200&section=header&text=Shreyas%20Gurav&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Backend%20%7C%20Cloud%20%7C%20AI%20Infrastructure&descAlignY=58&descSize=20&descColor=93c5fd" />
+</div>
+
+<!-- Typing animation -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Shreyas+Gurav+%F0%9F%91%8B;Full-Stack+Software+Engineer;AWS+Certified+Developer+%E2%80%93+Associate;Building+AI-Powered+Backend+Systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=3B82F6&center=true&vCenter=true&width=750&lines=Building+8-microservice+architectures+on+AWS+%E2%98%81%EF%B8%8F;LLM+%2B+RAG+pipelines+at+production+scale+%F0%9F%A4%96;Node.js+%C2%B7+FastAPI+%C2%B7+AWS+%C2%B7+Docker+%C2%B7+PostgreSQL;AWS+Certified+Developer+%E2%80%93+Associate+%F0%9F%8F%85)](https://git.io/typing-svg)
 
-<p align="center">
-  <a href="https://linkedin.com/in/shreyasgurav1015"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://shreyas-full-stack-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="mailto:shreyasss15.10@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/Shreyas1015"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyasgurav1015)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=vercel&logoColor=white)](https://shreyas-full-stack-portfolio.vercel.app)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:shreyasss15.10@gmail.com)
+![Open to Work](https://img.shields.io/badge/Open%20to%20Work-22c55e?style=flat-square&logo=checkmarx&logoColor=white)
 
 </div>
 
 ---
 
-## 🧠 About Me
-
-I build **AI-powered backend systems and cloud infrastructure** — Node.js, FastAPI, and AWS — at production scale.
-
-- 🏢 **Software Engineer @ Schbang Labs** — 8-microservice AWS architecture, 99.9% uptime, sub-200ms latencies
-- 🤖 Built **Second Brain** — LLM/RAG platform centralising 200+ brand assets, cutting onboarding time by 70%
-- 💰 Delivered **₹1 Cr+ in annual savings** via an AI-powered Google Meet pipeline on AWS SQS/SNS
-- 🚀 Shipped **Schbang Hire** — AI careers portal cutting hiring from 21 days → 2–3 days
-- ☁️ **AWS Certified Developer – Associate** (2026–2029)
-- 📍 Mumbai, Maharashtra
+<!-- Terminal-style About Section -->
+```bash
+$ whoami
+```
+```
+shreyas@cloud-server:~$ cat about.json
+{
+  "name"        : "Shreyas Gurav",
+  "role"        : "Software Engineer @ Schbang Labs",
+  "location"    : "Mumbai, India",
+  "focus"       : ["Backend Systems", "Cloud Architecture", "AI Infrastructure"],
+  "cert"        : "AWS Certified Developer - Associate (2026-2029)",
+  "status"      : "Open to backend / cloud / AI infra roles"
+}
+```
 
 ---
 
-## 🛠️ Tech Stack
+<!-- Architecture Impact Section -->
+```bash
+$ cat production_impact.log
+```
 
-### Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+```
+╔══════════════════════════════════════════════════════════════════╗
+║              PRODUCTION SYSTEM METRICS @ SCHBANG LABS           ║
+╠══════════════════════════════════════════════════════════════════╣
+║  Architecture   →  8 microservices on AWS (EC2/SQS/SNS/RDS)    ║
+║  API Latency    →  sub-200ms under peak concurrent load         ║
+║  Uptime         →  99.9% across all production services         ║
+║  Throughput     →  10,000+ concurrent requests handled          ║
+║  Cost Savings   →  Rs. 1 Cr+ annually (AI pipeline SQS/SNS)    ║
+║  Infra Costs    →  35% reduction via CloudWatch tuning          ║
+║  Deploy Speed   →  ~40% faster via Docker + GitHub Actions      ║
+║  Hiring Cycle   →  21 days -> 2-3 days (Schbang Hire AI)       ║
+╚══════════════════════════════════════════════════════════════════╝
+```
 
-### Frameworks & Runtime
+---
+
+<!-- Cloud Stack Visual -->
+```bash
+$ kubectl describe stack shreyas-cloud
+```
+
+```
+NAME: shreyas-cloud-stack
+NAMESPACE: production
+
+COMPUTE          │  AWS EC2 · Elastic Beanstalk · Docker
+MESSAGING        │  AWS SQS · SNS · SES
+STORAGE          │  AWS S3 · RDS · ElastiCache (Redis)
+OBSERVABILITY    │  AWS CloudWatch · Rekognition
+AI/ML            │  LLM Integrations · RAG Pipelines · Vector DBs
+BACKEND          │  Node.js · FastAPI · Express.js
+FRONTEND         │  React.js · Next.js
+DATABASES        │  PostgreSQL · MongoDB · MySQL · Redis
+CI/CD            │  GitHub Actions · Docker
+LANGUAGES        │  JavaScript (ES6+) · TypeScript · Python
+```
+
+---
+
+## `$ ls -la /projects`
+
+<table>
+<tr>
+<td width="50%">
+
+### 🧠 Second Brain
+**AI Knowledge Platform**
+```
+→ secondbrain.schbanglabs.com
+→ Stack: Node.js · FastAPI · AWS · RAG · LLM
+→ 200+ brand assets centralised
+→ 70% reduction in client onboarding time
+→ Google Drive sync + meeting intelligence
+```
+
+</td>
+<td width="50%">
+
+### 🎯 Schbang Hire
+**AI Careers Portal**
+```
+→ Stack: FastAPI · AWS SES · ElevenLabs · LLM
+→ 500+ resumes screened at 92% accuracy
+→ 21 days → 2-3 days hiring cycle
+→ Voice interviews via LLM + ElevenLabs
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🤖 Google Meet AI Pipeline
+**Event-Driven Transcription System**
+```
+→ Stack: FastAPI · AWS SQS/SNS · Vector DB
+→ 50+ meetings/month processed
+→ 95% transcription accuracy
+→ Rs. 1 Cr annual savings vs Fireflies
+```
+
+</td>
+<td width="50%">
+
+### 🚗 Tripto
+**B2B Outstation Travel Platform**
+```
+→ tripto-web.vercel.app
+→ Stack: Next.js · Node.js · MySQL
+→ Sub-300ms page loads
+→ GPS tracking + real-time analytics
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+## `$ dpkg --list | grep installed`
+
+**Backend & Runtime**
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000?style=flat-square&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-### AI / ML
-![LLM](https://img.shields.io/badge/LLM_Integrations-FF6B35?style=flat-square&logo=openai&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-8B5CF6?style=flat-square&logo=databricks&logoColor=white)
-![Vector DB](https://img.shields.io/badge/Vector_Databases-06B6D4?style=flat-square&logo=pinecone&logoColor=white)
+**Cloud & DevOps**
 
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
+![S3](https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![RDS](https://img.shields.io/badge/RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
+![SQS](https://img.shields.io/badge/SQS-FF4F8B?style=flat-square&logo=amazonsqs&logoColor=white)
 
-### Databases
+**Databases**
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
----
+**AI / ML**
 
-## 🚀 Featured Projects
-
-### 🧠 [Second Brain — AI Knowledge Platform](https://secondbrain.schbanglabs.com)
-> LLM/RAG platform centralising 200+ brand assets with real-time Google Drive sync and meeting intelligence
-- **Stack:** Node.js · FastAPI · AWS · Vector Databases · LLM
-- **Impact:** 70% reduction in client onboarding time
-
-### 🎯 Schbang Hire — AI Careers Portal
-> Intelligent resume screening and voice interviews powered by LLMs and ElevenLabs
-- **Stack:** Node.js · FastAPI · AWS SES · ElevenLabs · LLM
-- **Impact:** 500+ resumes screened at 92% accuracy · 21 days → 2–3 days hiring cycle
-
-### 🚗 [Tripto — B2B Outstation Travel Platform](https://tripto-web.vercel.app)
-> Full-stack B2B platform connecting car owners, vendors, and digital service providers
-- **Stack:** Next.js · Node.js · Express.js · MySQL
-- **Impact:** Sub-300ms page loads · GPS tracking · Real-time analytics
+![LLM](https://img.shields.io/badge/LLM_Integrations-412991?style=flat-square&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-8B5CF6?style=flat-square&logo=databricks&logoColor=white)
+![Vector DB](https://img.shields.io/badge/Vector_Databases-06B6D4?style=flat-square&logo=weaviate&logoColor=white)
 
 ---
 
-## 📊 GitHub Stats
+## `$ git log --all --oneline`
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shreyas1015&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyas1015&layout=compact&theme=tokyonight&hide_border=true"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreyas1015/Shreyas1015/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreyas1015/Shreyas1015/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Shreyas1015/Shreyas1015/output/github-snake.svg" />
+</picture>
 
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Shreyas1015&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+> ⚠️ Most production work lives in private org repos at Schbang Labs — public activity reflects personal projects only.
 
 </div>
 
 ---
 
-## 🏆 Certifications
+## `$ aws iam get-certification`
 
 <div align="center">
 
-![AWS](https://img.shields.io/badge/AWS_Certified_Developer_–_Associate-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
-&nbsp;&nbsp;
-`Valid: Feb 2026 – Feb 2029`
+![AWS Certified](https://img.shields.io/badge/AWS_Certified_Developer_–_Associate-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
 
-</div>
-
----
-
-## 📬 Let's Connect
-
-I'm currently **open to new opportunities** — backend, full-stack, or AI infrastructure roles at product-focused startups or strong engineering teams.
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyasgurav1015)
-[![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreyasss15.10@gmail.com)
-[![Portfolio](https://img.shields.io/badge/View_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://shreyas-full-stack-portfolio.vercel.app)
+`Credential ID: Valid Feb 2026 – Feb 2029`
 
 </div>
 
 ---
 
 <div align="center">
-  <sub>⚡ Building things that scale · Mumbai, India</sub>
+
+```bash
+$ echo "Currently open to backend · cloud · AI infra roles"
+Currently open to backend · cloud · AI infra roles
+
+$ curl -X POST https://api.shreyas.dev/connect \
+  -d '{"via": "linkedin or email", "type": "opportunity"}'
+```
+
+[![LinkedIn](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyasgurav1015)
+[![Email](https://img.shields.io/badge/Send_a_Message-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreyasss15.10@gmail.com)
+
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,50:1e3a5f,100:0f172a&height=120&section=footer" />
