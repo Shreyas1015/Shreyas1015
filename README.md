@@ -1,222 +1,155 @@
-<!-- Header Banner -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a5f,100:3b82f6&height=200&section=header&text=Shreyas%20Gurav&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Backend%20%7C%20Cloud%20%7C%20AI%20Infrastructure&descAlignY=58&descSize=20&descColor=93c5fd" />
-</div>
+# Shreyas Gurav
 
-<!-- Typing animation -->
-<div align="center">
+<p align="center">
+  <!-- Drag-and-drop your banner into any GitHub issue comment, copy the generated
+       user-attachments URL, and paste it here to replace this placeholder. -->
+  <img width="400" alt="Shreyas Gurav" src="https://github.com/Shreyas1015.png" />
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=3B82F6&center=true&vCenter=true&width=750&lines=Building+8-microservice+architectures+on+AWS+%E2%98%81%EF%B8%8F;LLM+%2B+RAG+pipelines+at+production+scale+%F0%9F%A4%96;Node.js+%C2%B7+FastAPI+%C2%B7+AWS+%C2%B7+Docker+%C2%B7+PostgreSQL;AWS+Certified+Developer+%E2%80%93+Associate+%F0%9F%8F%85)](https://git.io/typing-svg)
+<p align="center"><sub><em>
+I build the boring layer under the impressive demo.<br />
+Retrieval that returns the right chunk, endpoints that hold under load, pipelines that fail loudly instead of quietly — the parts nobody screenshots.<br />
+Somewhere along the way I stopped trying to out-prompt the drift and started encoding the standard into the repo itself: a gate that fails the build, an import matrix that can't be violated, a spec that has to exist before the code does. That became <a href="https://github.com/Shreyas1015/create-rigel">rigel</a>.<br />
+Now I do the same thing at work: put AI inside real financial infrastructure, then put guardrails around the AI.<br />
+If I had one piece of advice: ship the measurement before you ship the model. Accuracy you can't reproduce is a rumour.
+</em></sub></p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyasgurav1015)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=vercel&logoColor=white)](https://shreyas-full-stack-portfolio.vercel.app)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:shreyasss15.10@gmail.com)
-![Open to Work](https://img.shields.io/badge/Open%20to%20Work-22c55e?style=flat-square&logo=checkmarx&logoColor=white)
-
-</div>
+**[shreyas-full-stack-portfolio.vercel.app →](https://shreyas-full-stack-portfolio.vercel.app)** · Mumbai, India
 
 ---
 
-<!-- Terminal-style About Section -->
+## Now
+
+**SDE 1 @ [Aerem Solutions](https://www.aerem.co)** — India's solar-focused fintech group (Aerem, [NetZero Finance](https://www.aerem.co/about-us) — the only RBI-licensed solar NBFC — and Sunstore Solar). ~350 MW of rooftop solar enabled across 12 states, 2,000+ verified installers, $15M pre-Series B led by SMBC Asia Rising Fund. I work across the core products:
+
+| Product | What it is | What I work on |
+|---|---|---|
+| **[SunStore](https://www.aerem.co)** | B2B solar equipment marketplace with embedded supply-chain finance (90–120 day credit) | Catalogue + procurement APIs, pricing and order flows, credit-line integration |
+| **[Partner Portal](https://partner.aerem.co)** | All-in-one console for EPCs — loan leads, applications, design, procurement, monitoring | Lead → application → disbursal pipeline, dashboards, partner-facing services |
+| **AeROC** | Inverter-agnostic remote operations centre — monitor, manage and diagnose every plant in one place | Telemetry ingestion, generation reporting, alerting and diagnostics surfaces |
+
+**Integrating AI into the stack** — LLM + RAG workflows over solar documentation, partner queries and operational data, so the people running EPC businesses get answers instead of dashboards to interpret.
+
+**Introduced the agent harness** — brought agent-first development into the team: written repo rules, path-scoped constraints, specialist review agents, and a mechanical gate that has to pass before anything merges. The same idea I open-sourced as [rigel](https://github.com/Shreyas1015/create-rigel).
+
+**Creator of [rigel](https://github.com/Shreyas1015/create-rigel)** — `create-next-app` for teams building *with* coding agents. Scaffolds a repo that constrains the agent instead of trusting it.
+
 ```bash
-$ whoami
+npm create rigel@latest my-app   # Next.js · Express+TS · NestJS · FastAPI
 ```
-```
-shreyas@cloud-server:~$ cat about.json
-{
-  "name"        : "Shreyas Gurav",
-  "role"        : "Software Engineer @ Schbang Labs",
-  "location"    : "Mumbai, India",
-  "focus"       : ["Backend Systems", "Cloud Architecture", "AI Infrastructure"],
-  "cert"        : "AWS Certified Developer - Associate (2026-2029)",
-  "status"      : "Open to backend / cloud / AI infra roles"
-}
-```
+
+Every template ships a layered architecture with a strict import matrix, a `.claude/` workflow, and a gate — typecheck, zero-warning lint, circular-dep check, architecture tests, coverage thresholds — that blocks the commit when the code is wrong.
+
+**AWS Certified Developer – Associate** (Feb 2026 – Feb 2029).
 
 ---
 
-<!-- Architecture Impact Section -->
-```bash
-$ cat production_impact.log
-```
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║              PRODUCTION SYSTEM METRICS @ SCHBANG LABS           ║
-╠══════════════════════════════════════════════════════════════════╣
-║  Architecture   →  8 microservices on AWS (EC2/SQS/SNS/RDS)    ║
-║  API Latency    →  sub-200ms under peak concurrent load         ║
-║  Uptime         →  99.9% across all production services         ║
-║  Throughput     →  10,000+ concurrent requests handled          ║
-║  Cost Savings   →  Rs. 1 Cr+ annually (AI pipeline SQS/SNS)    ║
-║  Infra Costs    →  35% reduction via CloudWatch tuning          ║
-║  Deploy Speed   →  ~40% faster via Docker + GitHub Actions      ║
-║  Hiring Cycle   →  21 days -> 2-3 days (Schbang Hire AI)       ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
----
-
-<!-- Cloud Stack Visual -->
-```bash
-$ kubectl describe stack shreyas-cloud
-```
-
-```
-NAME: shreyas-cloud-stack
-NAMESPACE: production
-
-COMPUTE          │  AWS EC2 · Elastic Beanstalk · Docker
-MESSAGING        │  AWS SQS · SNS · SES
-STORAGE          │  AWS S3 · RDS · ElastiCache (Redis)
-OBSERVABILITY    │  AWS CloudWatch · Rekognition
-AI/ML            │  LLM Integrations · RAG Pipelines · Vector DBs
-BACKEND          │  Node.js · FastAPI · Express.js
-FRONTEND         │  React.js · Next.js
-DATABASES        │  PostgreSQL · MongoDB · MySQL · Redis
-CI/CD            │  GitHub Actions · Docker
-LANGUAGES        │  JavaScript (ES6+) · TypeScript · Python
-```
-
----
-
-## `$ ls -la /projects`
+## Open Source
 
 <table>
-<tr>
-<td width="50%">
-
-### 🧠 Second Brain
-**AI Knowledge Platform**
-```
-→ secondbrain.schbanglabs.com
-→ Stack: Node.js · FastAPI · AWS · RAG · LLM
-→ 200+ brand assets centralised
-→ 70% reduction in client onboarding time
-→ Google Drive sync + meeting intelligence
-```
-
-</td>
-<td width="50%">
-
-### 🎯 Schbang Hire
-**AI Careers Portal**
-```
-→ Stack: FastAPI · AWS SES · ElevenLabs · LLM
-→ 500+ resumes screened at 92% accuracy
-→ 21 days → 2-3 days hiring cycle
-→ Voice interviews via LLM + ElevenLabs
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🤖 Google Meet AI Pipeline
-**Event-Driven Transcription System**
-```
-→ Stack: FastAPI · AWS SQS/SNS · Vector DB
-→ 50+ meetings/month processed
-→ 95% transcription accuracy
-→ Rs. 1 Cr annual savings vs Fireflies
-```
-
-</td>
-<td width="50%">
-
-### 🚗 Tripto
-**B2B Outstation Travel Platform**
-```
-→ tripto-web.vercel.app
-→ Stack: Next.js · Node.js · MySQL
-→ Sub-300ms page loads
-→ GPS tracking + real-time analytics
-```
-
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Shreyas1015/create-rigel"><b>create-rigel</b></a><br />
+      <sub>Agent-first, gate-enforced project scaffolding for Claude Code · <a href="https://www.npmjs.com/package/create-rigel">npm</a></sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=agents%20%7C%20scaffolding%20%7C%20gates&labelColor=0ea5e9&color=111827" alt="focus agents scaffolding gates" /><br />
+      <img src="https://img.shields.io/github/stars/Shreyas1015/create-rigel?style=flat-square&label=stars&color=f59e0b" alt="create-rigel stars" />
+      <img src="https://img.shields.io/npm/dm/create-rigel?style=flat-square&label=downloads&color=60a5fa" alt="create-rigel downloads" />
+      <img src="https://img.shields.io/npm/v/create-rigel?style=flat-square&label=version&color=22c55e" alt="create-rigel version" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Shreyas1015/starter-template"><b>starter-template</b></a><br />
+      <sub>Production-grade Node.js starter · Docker, k8s, CI/CD, linting, testing</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=node%20%7C%20infra%20%7C%20ci%2Fcd&labelColor=22c55e&color=111827" alt="focus node infra cicd" /><br />
+      <img src="https://img.shields.io/github/stars/Shreyas1015/starter-template?style=flat-square&label=stars&color=f59e0b" alt="starter-template stars" />
+      <img src="https://img.shields.io/github/forks/Shreyas1015/starter-template?style=flat-square&label=forks&color=60a5fa" alt="starter-template forks" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Shreyas1015/agentic-rag"><b>agentic-rag</b></a><br />
+      <sub>Retrieval-augmented generation with agentic routing · Python</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=rag%20%7C%20retrieval%20%7C%20llm&labelColor=a855f7&color=111827" alt="focus rag retrieval llm" /><br />
+      <img src="https://img.shields.io/github/stars/Shreyas1015/agentic-rag?style=flat-square&label=stars&color=f59e0b" alt="agentic-rag stars" />
+      <img src="https://img.shields.io/github/forks/Shreyas1015/agentic-rag?style=flat-square&label=forks&color=60a5fa" alt="agentic-rag forks" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Shreyas1015/Tripto-Client"><b>Tripto</b></a><br />
+      <sub>B2B outstation travel platform · 3 stakeholder tiers · <a href="https://tripto-web.vercel.app">tripto-web.vercel.app</a></sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=b2b%20%7C%20full-stack&labelColor=fb923c&color=111827" alt="focus b2b full-stack" /><br />
+      <img src="https://img.shields.io/github/stars/Shreyas1015/Tripto-Client?style=flat-square&label=stars&color=f59e0b" alt="Tripto stars" />
+      <img src="https://img.shields.io/github/forks/Shreyas1015/Tripto-Client?style=flat-square&label=forks&color=60a5fa" alt="Tripto forks" />
+    </td>
+  </tr>
 </table>
 
----
-
-## `$ dpkg --list | grep installed`
-
-**Backend & Runtime**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000?style=flat-square&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-**Cloud & DevOps**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
-![S3](https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
-![RDS](https://img.shields.io/badge/RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
-![SQS](https://img.shields.io/badge/SQS-FF4F8B?style=flat-square&logo=amazonsqs&logoColor=white)
-
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-**AI / ML**
-
-![LLM](https://img.shields.io/badge/LLM_Integrations-412991?style=flat-square&logo=openai&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-8B5CF6?style=flat-square&logo=databricks&logoColor=white)
-![Vector DB](https://img.shields.io/badge/Vector_Databases-06B6D4?style=flat-square&logo=weaviate&logoColor=white)
+<sub>
+Also: <a href="https://github.com/Shreyas1015/rigel-bookmarks-api">rigel-bookmarks-api</a> / <a href="https://github.com/Shreyas1015/rigel-bookmarks-web">rigel-bookmarks-web</a> (rigel dogfood builds), <a href="https://github.com/Shreyas1015/docker-setup-node">docker-setup-node</a>, <a href="https://github.com/Shreyas1015/ml-exps">ml-exps</a>, <a href="https://github.com/Shreyas1015/event-link-client">event-link</a>, <a href="https://github.com/Shreyas1015/apna-bharat-client">apna-bharat</a>, <a href="https://github.com/Shreyas1015/shreyas-portfolio">shreyas-portfolio</a>
+</sub>
 
 ---
 
-## `$ git log --all --oneline`
+## Previously
 
-<div align="center">
+**Software Engineer – Full Stack @ Schbang (Schbang Labs)** · Mumbai
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreyas1015/Shreyas1015/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreyas1015/Shreyas1015/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Shreyas1015/Shreyas1015/output/github-snake.svg" />
-</picture>
+| Built | Outcome |
+|---|---|
+| **Second Brain** — end-to-end production RAG pipeline (FastAPI + vector DB): chunking, embedding, semantic search over 200+ brand assets | Client onboarding cut from 2–3 weeks to 2–3 days (**70%**) |
+| **LLM resume screening** — parsing, scoring, output-quality metrics and regression checks, wired to an ElevenLabs voice-interview step | 500+ candidates/cycle at **92%** scoring accuracy; hiring cycle 21 days → 2–3 days |
+| **Meet transcription orchestration** — event-driven AWS (SQS/SNS/Lambda) chaining Whisper ASR, Recall AI dedup, LLM summarisation | **95%** transcription accuracy; 2 hours → **<5 min**; ~₹1 Cr/yr saved vs. the commercial alternative |
+| **Latency work** — Redis (ElastiCache), RDS read replicas, indexed query tuning on LLM-serving endpoints | 500–800 ms → **sub-200 ms**; avg DB query time **−60%** |
+| **8-microservice AWS architecture** — EC2, RDS, S3, SQS, SNS, ElastiCache, CloudWatch | Independent deploy boundaries, structured logging + alerting |
+| **Cost optimisation** — EC2 right-sizing, S3 lifecycle policies, ElastiCache tiering, validated against a 3-month billing baseline | **~20%** AWS spend reduction with latency SLOs preserved |
 
-> ⚠️ Most production work lives in private org repos at Schbang Labs — public activity reflects personal projects only.
-
-</div>
-
----
-
-## `$ aws iam get-certification`
-
-<div align="center">
-
-![AWS Certified](https://img.shields.io/badge/AWS_Certified_Developer_–_Associate-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
-
-`Credential ID: Valid Feb 2026 – Feb 2029`
-
-</div>
+12 production features owned end-to-end — requirements, schema, API, evaluation, deployment — with **zero unplanned rollbacks** across a 9-month window.
 
 ---
 
-<div align="center">
+## Stack
 
-```bash
-$ echo "Currently open to backend · cloud · AI infra roles"
-Currently open to backend · cloud · AI infra roles
+| | |
+|---|---|
+| **AI / ML** | LLM APIs, RAG, vector DBs (pgvector, Pinecone), semantic search, prompt engineering, evaluation & quality metrics, agent harnesses |
+| **Languages** | Python, TypeScript, JavaScript (ES6+) |
+| **Backend** | FastAPI, Node.js, Express, NestJS, REST design, async processing, microservices |
+| **Data** | PostgreSQL, MongoDB, Redis (ElastiCache), query optimisation, indexing |
+| **Cloud** | AWS (EC2, RDS, S3, SQS, SNS, Lambda, ElastiCache, CloudWatch, SES), Docker, GitHub Actions, CI/CD |
+| **Architecture** | Event-driven systems, multi-step LLM orchestration, production NLP serving, system design |
 
-$ curl -X POST https://api.shreyas.dev/connect \
-  -d '{"via": "linkedin or email", "type": "opportunity"}'
-```
+---
 
-[![LinkedIn](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyasgurav1015)
-[![Email](https://img.shields.io/badge/Send_a_Message-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreyasss15.10@gmail.com)
+## Highlights
 
-</div>
+| Highlight | Detail |
+|---|---|
+| **Building fintech infrastructure** | SunStore, Partner Portal and AeROC at [Aerem](https://www.aerem.co) — the marketplace, lending and monitoring layer behind India's rooftop solar buildout |
+| **Open-source tooling** | [create-rigel](https://github.com/Shreyas1015/create-rigel) on [npm](https://www.npmjs.com/package/create-rigel) — agent-first scaffolding across four stacks, with a mechanical quality gate |
+| **Production RAG at scale** | Second Brain: retrieval over 200+ brand assets, 70% onboarding reduction |
+| **Evaluated LLM systems** | 92% scoring accuracy on 500+ candidates/cycle, with defined output-quality metrics and regression checks |
+| **AWS Certified Developer – Associate** | Serverless, CI/CD automation, IAM, service integration (Feb 2026 – Feb 2029) |
+| **B.E. Computer Engineering** | Vasantdada Patil College of Engineering, Mumbai University · CGPA 7.75/10 |
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,50:1e3a5f,100:0f172a&height=120&section=footer" />
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreyas1015/Shreyas1015/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreyas1015/Shreyas1015/output/github-snake.svg" />
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/Shreyas1015/Shreyas1015/output/github-snake.svg" />
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Shreyas1015&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=adbac7&dates=adbac7&currStreakNum=adbac7&sideNums=adbac7" alt="GitHub streak stats for Shreyas1015" height="165" />
+</p>
+
+<p align="center"><sub>Most production work lives in private org repos — public activity reflects personal projects only.</sub></p>
+
+---
+
+<p align="center">
+  <a href="https://linkedin.com/in/shreyasgurav1015">LinkedIn</a> ·
+  <a href="https://github.com/Shreyas1015">GitHub</a> ·
+  <a href="https://www.npmjs.com/package/create-rigel">npm</a> ·
+  <a href="mailto:shreyasss15.10@gmail.com">Email</a>
+</p>
