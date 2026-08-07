@@ -46,44 +46,26 @@ Every template ships a layered architecture with a strict import matrix, a `.cla
 
 ## Open Source
 
+I maintain one open-source project. It's the one I'd want to be judged on.
+
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Shreyas1015/create-rigel"><b>create-rigel</b></a><br />
-      <sub>Agent-first, gate-enforced project scaffolding for Claude Code · <a href="https://www.npmjs.com/package/create-rigel">npm</a></sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=agents%20%7C%20scaffolding%20%7C%20gates&labelColor=0ea5e9&color=111827" alt="focus agents scaffolding gates" /><br />
+    <td valign="top">
+      <a href="https://github.com/Shreyas1015/create-rigel"><b>create-rigel</b></a> · <a href="https://www.npmjs.com/package/create-rigel">npm</a><br />
+      <sub>Scaffolds an agent-first, gate-enforced starter project — Next.js · Express+TS · NestJS · FastAPI — each wired for Claude Code with a mechanical quality gate, a strict import matrix, path-scoped rules, specialist review agents, and a spec-driven workflow baked in.</sub><br /><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=agents%20%7C%20scaffolding%20%7C%20quality%20gates&labelColor=0ea5e9&color=111827" alt="focus agents scaffolding quality gates" /><br />
       <img src="https://img.shields.io/github/stars/Shreyas1015/create-rigel?style=flat-square&label=stars&color=f59e0b" alt="create-rigel stars" />
       <img src="https://img.shields.io/npm/dm/create-rigel?style=flat-square&label=downloads&color=60a5fa" alt="create-rigel downloads" />
       <img src="https://img.shields.io/npm/v/create-rigel?style=flat-square&label=version&color=22c55e" alt="create-rigel version" />
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Shreyas1015/starter-template"><b>starter-template</b></a><br />
-      <sub>Production-grade Node.js starter · Docker, k8s, CI/CD, linting, testing</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=node%20%7C%20infra%20%7C%20ci%2Fcd&labelColor=22c55e&color=111827" alt="focus node infra cicd" /><br />
-      <img src="https://img.shields.io/github/stars/Shreyas1015/starter-template?style=flat-square&label=stars&color=f59e0b" alt="starter-template stars" />
-      <img src="https://img.shields.io/github/forks/Shreyas1015/starter-template?style=flat-square&label=forks&color=60a5fa" alt="starter-template forks" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Shreyas1015/agentic-rag"><b>agentic-rag</b></a><br />
-      <sub>Retrieval-augmented generation with agentic routing · Python</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=rag%20%7C%20retrieval%20%7C%20llm&labelColor=a855f7&color=111827" alt="focus rag retrieval llm" /><br />
-      <img src="https://img.shields.io/github/stars/Shreyas1015/agentic-rag?style=flat-square&label=stars&color=f59e0b" alt="agentic-rag stars" />
-      <img src="https://img.shields.io/github/forks/Shreyas1015/agentic-rag?style=flat-square&label=forks&color=60a5fa" alt="agentic-rag forks" />
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Shreyas1015/Tripto-Client"><b>Tripto</b></a><br />
-      <sub>B2B outstation travel platform · 3 stakeholder tiers · <a href="https://tripto-web.vercel.app">tripto-web.vercel.app</a></sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=b2b%20%7C%20full-stack&labelColor=fb923c&color=111827" alt="focus b2b full-stack" /><br />
-      <img src="https://img.shields.io/github/stars/Shreyas1015/Tripto-Client?style=flat-square&label=stars&color=f59e0b" alt="Tripto stars" />
-      <img src="https://img.shields.io/github/forks/Shreyas1015/Tripto-Client?style=flat-square&label=forks&color=60a5fa" alt="Tripto forks" />
+      <img src="https://img.shields.io/github/actions/workflow/status/Shreyas1015/create-rigel/ci.yml?style=flat-square&label=ci" alt="create-rigel CI" />
     </td>
   </tr>
 </table>
 
+The premise: coding agents are good at writing code and bad at stopping themselves from drifting. The fix isn't a better prompt — it's a repo that constrains the agent. Rules it must follow, a fixed build order, and a gate that fails the commit when the code is wrong. Quality enforced by checks, not by hoping someone remembers the standard.
+
 <sub>
-Also: <a href="https://github.com/Shreyas1015/rigel-bookmarks-api">rigel-bookmarks-api</a> / <a href="https://github.com/Shreyas1015/rigel-bookmarks-web">rigel-bookmarks-web</a> (rigel dogfood builds), <a href="https://github.com/Shreyas1015/docker-setup-node">docker-setup-node</a>, <a href="https://github.com/Shreyas1015/ml-exps">ml-exps</a>, <a href="https://github.com/Shreyas1015/event-link-client">event-link</a>, <a href="https://github.com/Shreyas1015/apna-bharat-client">apna-bharat</a>, <a href="https://github.com/Shreyas1015/shreyas-portfolio">shreyas-portfolio</a>
+Personal projects and experiments: <a href="https://github.com/Shreyas1015/Tripto-Client">Tripto</a> (B2B travel platform, <a href="https://tripto-web.vercel.app">live</a>), <a href="https://github.com/Shreyas1015/agentic-rag">agentic-rag</a>, <a href="https://github.com/Shreyas1015/starter-template">starter-template</a>, <a href="https://github.com/Shreyas1015/rigel-bookmarks-api">rigel-bookmarks-api</a> / <a href="https://github.com/Shreyas1015/rigel-bookmarks-web">rigel-bookmarks-web</a> (rigel dogfood builds), <a href="https://github.com/Shreyas1015/docker-setup-node">docker-setup-node</a>, <a href="https://github.com/Shreyas1015/ml-exps">ml-exps</a>, <a href="https://github.com/Shreyas1015/event-link-client">event-link</a>, <a href="https://github.com/Shreyas1015/apna-bharat-client">apna-bharat</a>
 </sub>
 
 ---
