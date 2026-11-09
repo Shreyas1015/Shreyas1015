@@ -1,5 +1,9 @@
 <p align="center">
-  <a href="https://shreyas-full-stack-portfolio.vercel.app"><img src="./assets/header.svg" alt="Shreyas Gurav, Software Engineer in Mumbai" width="100%" /></a>
+  <a href="https://shreyas-full-stack-portfolio.vercel.app"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
+    <img src="./assets/header-light.svg" alt="Shreyas Gurav, Software Engineer in Mumbai" width="100%" />
+  </picture></a>
 </p>
 
 <p align="center"><sub><em>
@@ -12,10 +16,6 @@ If I had one piece of advice: ship the measurement before you ship the model. Ac
 
 <p align="center"><b><a href="https://shreyas-full-stack-portfolio.vercel.app">shreyas-full-stack-portfolio.vercel.app →</a></b> · Mumbai, India</p>
 
-<p align="center">
-  <img src="./assets/spread.svg" alt="Schbang, Jun 2025 to Jul 2026, then Aerem, Jul 2026 to present" width="100%" />
-</p>
-
 ## Now
 
 **Software Engineer @ [Aerem Solutions](https://www.aerem.co)** · Jul 2026 – present
@@ -25,7 +25,11 @@ India's solar-focused fintech group (Aerem, [NetZero Finance](https://www.aerem.
 I own the internal tools ops, finance and sales run on every day: dispatch planning, payments and collections, the Zoho ERP sync, and the tracing that tells us when any of it breaks.
 
 <p align="center">
-  <img src="./assets/reel-aerem.svg" alt="At Aerem: 8.5ms Dispatch Planner report query, down from 455ms. 10–69× faster production Postgres queries. ₹2.13 Cr of duplicated credit notes removed. ₹49.1 lakh of payments auto-matched. 298 false alerts ended. 150 leaked Chromium processes contained." width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/reel-aerem-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/reel-aerem-light.svg" />
+    <img src="./assets/reel-aerem-light.svg" alt="At Aerem: 8.5ms Dispatch Planner report query, down from 455ms. 10–69× faster production Postgres queries. ₹2.13 Cr of duplicated credit notes removed. ₹49.1 lakh of payments auto-matched. 298 false alerts ended. 150 leaked Chromium processes contained." width="100%" />
+  </picture>
 </p>
 
 Also shipped:
