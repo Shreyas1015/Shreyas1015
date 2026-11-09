@@ -52,7 +52,7 @@ Two npm packages, both MIT, both built for people who ship with AI coding agents
   <tr>
     <td valign="top" width="50%">
       <a href="https://github.com/Shreyas1015/codeloom"><b>codeloom</b></a> · <a href="https://www.npmjs.com/package/codeloom">npm</a><br />
-      <sub>Feature maps for engineers and AI agents. Traces each page to the API route, code and database tables behind it, across separate frontend and backend repos, without using AI. Every link is marked exact or a guess, and CI blocks a release below 95% precision / 80% recall.</sub><br /><br />
+      <sub>Feature maps for engineers and AI agents. Traces each page to the API route, code and database tables behind it, across separate frontend and backend repos. The map is built by static analysis, with no AI involved; connect Claude Code or any MCP agent when you want it to explain, tour or extend the map. Every link is marked exact or a guess, and CI blocks a release below 95% precision / 80% recall.</sub><br /><br />
       <code>npx codeloom init</code><br /><br />
       <img src="https://img.shields.io/npm/v/codeloom?style=flat-square&label=version&labelColor=0f0e0d&color=ff4f2e" alt="codeloom version" />
     </td>
